@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body#bodyBolte {
+    background-color: #457b9d;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px 20px;
+    max-width: 100%;
+    width: 800px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+
+.joke {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.btn {
+    background-color: rgb(127, 187, 255);
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 14px 40px;
+}
+
+.byn:active {
+    transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: 0;
+}
